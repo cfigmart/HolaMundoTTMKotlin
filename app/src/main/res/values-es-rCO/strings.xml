@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HolaMundoTTMKotlin</string>
+    <string name="nombre">"Cristhian "</string>
+    <string name="bt_ingresar">Ingresar</string>
+    <string name="bt_salir">Salir</string>
+</resources>
