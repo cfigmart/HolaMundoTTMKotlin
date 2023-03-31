@@ -35,10 +35,16 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
+
+@Composable
+fun Tarjeta(name: String) {
+    Text(text = "Felicidades $name!")
+}
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     HolaMundoTTMKotlinTheme {
-        Greeting("Android")
+        Greeting(stringResource(id = R.string.nombre))
     }
 }
